@@ -1,0 +1,94 @@
+﻿@model nmct.ba.webshop.models.PresentationModel.ProductPM
+
+@{
+    ViewBag.Title = "Toevoegen";
+}
+
+<div class="container">
+@using (Html.BeginForm("Toevoegen", "Product", FormMethod.Post, new { @class = "form-group", @enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="col-sm-6">
+            <h1>Algemeen</h1>
+            <hr />
+        <div class="table-responsive">
+            <table class="table">
+                <tr>
+                    <th class="">@Html.LabelFor(model => model.product.Naam)</th>
+                </tr>
+                <tr>
+                    <td>@Html.TextBoxFor(model => model.product.Naam, new { placeholder = "Naam", @class="form-control" })</td>
+                    <td>@Html.ValidationMessageFor(model => model.product.Naam, "", new { @class = "text-danger" })</td>
+                </tr>
+                <tr>
+                    <th class="">@Html.LabelFor(model => model.product.Description)</th>
+                </tr>
+                <tr>
+                    <td>@Html.TextBoxFor(model => model.product.Description, new { placeholder = "Description", @class = "form-control" })</td>
+                    <td>@Html.ValidationMessageFor(model => model.product.Description, "", new { @class = "text-danger" })</td>
+                </tr>
+                <tr>
+                    <th class="">@Html.LabelFor(model => model.product.Aankoopprijs)</th>
+                </tr>
+                <tr>
+                    <td>@Html.TextBoxFor(model => model.product.Aankoopprijs, new { placeholder = "Aankoopprijs", @class = "form-control" })</td>
+                    <td>@Html.ValidationMessageFor(model => model.product.Aankoopprijs, "", new { @class = "text-danger" })</td>
+                </tr>
+                <tr>
+                    <th >@Html.LabelFor(model => model.product.Huurprijs)</th>
+                </tr>
+                <tr>
+                    <td>@Html.TextBoxFor(model => model.product.Huurprijs, new { placeholder = "Huurprijs", @class = "form-control" })</td>
+                    <td>@Html.ValidationMessageFor(model => model.product.Huurprijs, "", new { @class = "text-danger" })</td>
+                </tr>
+                <tr>
+                    <th class="">@Html.LabelFor(model => model.product.Aantal)</th>
+                </tr>
+                <tr>
+                    <td>@Html.TextBoxFor(model => model.product.Aantal, new { placeholder = "Aantal", @class = "form-control" })</td>
+                    <td>@Html.ValidationMessageFor(model => model.product.Aantal, "", new { @class = "text-danger" })</td>
+                </tr>
+                <tr>
+                    <th class="">@Html.Label("Image")</th>
+                </tr>
+                <tr>
+                    <td>@Html.TextBox("file", "", new { type = "file", accept = "image/*" })</td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="btnVolgende" value="Volgende" class="btn btn-primary" /></td>
+                </tr>
+                <tr>
+                    <td>@ViewBag.Resultaat</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <div class="col-sm-6">
+            <h1>Software</h1>
+            <hr />
+            <div>
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                @Html.Label("Operating Systems")<br />
+                @Html.DropDownListFor(m => m.SelectedOS, Model.OSsn, new { @class = "dropdown-header" })<br />
+                @Html.ListBox("GekozenOSn", Model.GekozenOSn, new { @class = "list-group-item" })
+                @Html.TextBoxFor(m => m.ids, new { @class = "hidden", Value = @Html.DisplayFor(model => model.ids) })<br />
+                <input type="submit" name="btnToevoegenOS" value="Toevoegen" class="btn btn-primary" />
+            </div>
+
+            <br />
+            <br />
+
+            <div>
+                @Html.Label("Programming Framework")<br />
+                @Html.DropDownListFor(m => m.SelectedFrameWork, Model.FrameWorks, new { @class = "dropdown-header" })<br />
+                @Html.ListBox("GekozenFMs", Model.GekozenFMs, new { @class = "list-group-item" })
+                @Html.TextBoxFor(m => m.idsF, new { @class = "hidden", Value = @Html.DisplayFor(model => model.idsF) })<br />
+                <input type="submit" name="btnToevoegenFW" value="Toevoegen" class="btn btn-primary" />
+            </div>
+    </div>
+
+}
+</div>

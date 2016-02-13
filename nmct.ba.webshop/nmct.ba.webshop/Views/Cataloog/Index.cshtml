@@ -1,0 +1,30 @@
+﻿@model IEnumerable<nmct.ba.webshop.models.Product>
+
+
+<div class="container">
+@using (Html.BeginForm("Change_Language", "Cataloog", FormMethod.Post))
+{
+    <p>@ViewBag.Error</p>
+    <h2>Cataloog</h2>
+
+        @Html.DropDownList("ID", new SelectList(ViewBag.Culturen, "ID", "ID"))
+        <button type="submit" value="Wijzig">Wijzig</button>
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-sm-4">
+                <h3>@Html.DisplayFor(modelitem => item.Naam) </h3>
+                <p>@Html.DisplayFor(modelitem => item.Description)</p>
+                <p>@Html.ActionLink("Meer info", "InfoPlus", new { id = item.ProductId }, new { @class = "btn btn-primary" })</p>
+            </div>
+        }
+    </div>
+}
+</div>
+   
+
+
+
+
+

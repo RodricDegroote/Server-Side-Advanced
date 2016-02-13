@@ -1,0 +1,166 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nmct.ba.webshop", "nmct.ba.webshop\nmct.ba.webshop.csproj", "{81A7BDC2-2630-438F-9116-A0B6A553314A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nmct.ba.webshop.Tests", "nmct.ba.webshop.Tests\nmct.ba.webshop.Tests.csproj", "{E6828F77-4311-485B-ABC4-33E1825F744F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nmct.ba.webshop.models", "nmct.ba.webshop.models\nmct.ba.webshop.models.csproj", "{97AD90C6-34E5-47AE-BB63-5F786142F8C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nmct.ba.webshop.repositories", "nmct.ba.webshop.repositories\nmct.ba.webshop.repositories.csproj", "{09E076D3-146D-4DF7-933A-BD8A0DFE1B70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nmct.ba.webshop.context", "nmct.ba.webshop.context\nmct.ba.webshop.context.csproj", "{075E97AD-6CB4-4E73-B5D3-E7619FABC322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nmct.ba.webshop.interfaces", "nmct.ba.webshop.interfaces\nmct.ba.webshop.interfaces.csproj", "{9C827058-8AE8-4A47-A5BE-E6AA788F7E3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nmct.ba.webshop.Service", "nmct.ba.webshop.SERVICE\nmct.ba.webshop.Service.csproj", "{70C6586A-07A4-455D-9EBB-16A67E96D6E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculater", "Calculater\Calculater.csproj", "{D61B14A1-C3EA-4F4B-A5F7-514D1EBB6208}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nmct.ba.webshop.cache", "nmct.ba.webshop.cache\nmct.ba.webshop.cache.csproj", "{D770551D-D5B8-4717-AC9D-D8622F04D6B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebJob", "WebJob\WebJob.csproj", "{5692526E-C105-477B-B425-07AFE39072D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailClient", "MailClient\MailClient.csproj", "{09F27125-FBA1-4030-B608-758BC56FA570}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudService", "CloudService\CloudService.csproj", "{5B3A3F6E-505E-4102-BCB3-84035D83C026}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteOldOrders", "DeleteOldOrders\DeleteOldOrders.csproj", "{F437BF15-6C4F-45CF-9794-769C550CFF94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadSubscriptionProblem", "ReadSubscriptionProblem\ReadSubscriptionProblem.csproj", "{B5FFE092-CCA3-46CF-8ACA-403E520FBEAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadMQTTBroker", "ReadMQTTBroker\ReadMQTTBroker.csproj", "{80A375A6-D93B-42CC-BA78-3A577C227220}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendToMQQTBroker", "SendToMQQTBroker\SendToMQQTBroker.csproj", "{7A1603E3-8135-41F9-87C1-6FE9AF8BE3F1}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 17
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rodricdegroote88.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = nmct.ba.webshop.Tests\\nmct.ba.webshop.Tests.csproj
+		SccProjectName1 = nmct.ba.webshop.Tests
+		SccLocalPath1 = nmct.ba.webshop.Tests
+		SccProjectUniqueName2 = nmct.ba.webshop\\nmct.ba.webshop.csproj
+		SccProjectName2 = nmct.ba.webshop
+		SccLocalPath2 = nmct.ba.webshop
+		SccProjectUniqueName3 = nmct.ba.webshop.models\\nmct.ba.webshop.models.csproj
+		SccProjectName3 = nmct.ba.webshop.models
+		SccLocalPath3 = nmct.ba.webshop.models
+		SccProjectUniqueName4 = nmct.ba.webshop.repositories\\nmct.ba.webshop.repositories.csproj
+		SccProjectName4 = nmct.ba.webshop.repositories
+		SccLocalPath4 = nmct.ba.webshop.repositories
+		SccProjectUniqueName5 = nmct.ba.webshop.context\\nmct.ba.webshop.context.csproj
+		SccProjectName5 = nmct.ba.webshop.context
+		SccLocalPath5 = nmct.ba.webshop.context
+		SccProjectUniqueName6 = nmct.ba.webshop.interfaces\\nmct.ba.webshop.interfaces.csproj
+		SccProjectName6 = nmct.ba.webshop.interfaces
+		SccLocalPath6 = nmct.ba.webshop.interfaces
+		SccProjectUniqueName7 = nmct.ba.webshop.SERVICE\\nmct.ba.webshop.Service.csproj
+		SccProjectName7 = nmct.ba.webshop.SERVICE
+		SccLocalPath7 = nmct.ba.webshop.SERVICE
+		SccProjectUniqueName8 = Calculater\\Calculater.csproj
+		SccProjectName8 = Calculater
+		SccLocalPath8 = Calculater
+		SccProjectUniqueName9 = nmct.ba.webshop.cache\\nmct.ba.webshop.cache.csproj
+		SccProjectName9 = nmct.ba.webshop.cache
+		SccLocalPath9 = nmct.ba.webshop.cache
+		SccProjectUniqueName10 = WebJob\\WebJob.csproj
+		SccProjectName10 = WebJob
+		SccLocalPath10 = WebJob
+		SccProjectUniqueName11 = MailClient\\MailClient.csproj
+		SccProjectName11 = MailClient
+		SccLocalPath11 = MailClient
+		SccProjectUniqueName12 = CloudService\\CloudService.csproj
+		SccProjectName12 = CloudService
+		SccLocalPath12 = CloudService
+		SccProjectUniqueName13 = DeleteOldOrders\\DeleteOldOrders.csproj
+		SccProjectName13 = DeleteOldOrders
+		SccLocalPath13 = DeleteOldOrders
+		SccProjectUniqueName14 = ReadSubscriptionProblem\\ReadSubscriptionProblem.csproj
+		SccProjectName14 = ReadSubscriptionProblem
+		SccLocalPath14 = ReadSubscriptionProblem
+		SccProjectUniqueName15 = ReadMQTTBroker\\ReadMQTTBroker.csproj
+		SccProjectName15 = ReadMQTTBroker
+		SccLocalPath15 = ReadMQTTBroker
+		SccProjectUniqueName16 = SendToMQQTBroker\\SendToMQQTBroker.csproj
+		SccProjectName16 = SendToMQQTBroker
+		SccLocalPath16 = SendToMQQTBroker
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81A7BDC2-2630-438F-9116-A0B6A553314A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A7BDC2-2630-438F-9116-A0B6A553314A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A7BDC2-2630-438F-9116-A0B6A553314A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A7BDC2-2630-438F-9116-A0B6A553314A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6828F77-4311-485B-ABC4-33E1825F744F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6828F77-4311-485B-ABC4-33E1825F744F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6828F77-4311-485B-ABC4-33E1825F744F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6828F77-4311-485B-ABC4-33E1825F744F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97AD90C6-34E5-47AE-BB63-5F786142F8C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97AD90C6-34E5-47AE-BB63-5F786142F8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97AD90C6-34E5-47AE-BB63-5F786142F8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97AD90C6-34E5-47AE-BB63-5F786142F8C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09E076D3-146D-4DF7-933A-BD8A0DFE1B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09E076D3-146D-4DF7-933A-BD8A0DFE1B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09E076D3-146D-4DF7-933A-BD8A0DFE1B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09E076D3-146D-4DF7-933A-BD8A0DFE1B70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{075E97AD-6CB4-4E73-B5D3-E7619FABC322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075E97AD-6CB4-4E73-B5D3-E7619FABC322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{075E97AD-6CB4-4E73-B5D3-E7619FABC322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075E97AD-6CB4-4E73-B5D3-E7619FABC322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C827058-8AE8-4A47-A5BE-E6AA788F7E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C827058-8AE8-4A47-A5BE-E6AA788F7E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C827058-8AE8-4A47-A5BE-E6AA788F7E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C827058-8AE8-4A47-A5BE-E6AA788F7E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70C6586A-07A4-455D-9EBB-16A67E96D6E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C6586A-07A4-455D-9EBB-16A67E96D6E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C6586A-07A4-455D-9EBB-16A67E96D6E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C6586A-07A4-455D-9EBB-16A67E96D6E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D61B14A1-C3EA-4F4B-A5F7-514D1EBB6208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61B14A1-C3EA-4F4B-A5F7-514D1EBB6208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61B14A1-C3EA-4F4B-A5F7-514D1EBB6208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61B14A1-C3EA-4F4B-A5F7-514D1EBB6208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D770551D-D5B8-4717-AC9D-D8622F04D6B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D770551D-D5B8-4717-AC9D-D8622F04D6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D770551D-D5B8-4717-AC9D-D8622F04D6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D770551D-D5B8-4717-AC9D-D8622F04D6B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5692526E-C105-477B-B425-07AFE39072D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5692526E-C105-477B-B425-07AFE39072D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5692526E-C105-477B-B425-07AFE39072D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5692526E-C105-477B-B425-07AFE39072D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09F27125-FBA1-4030-B608-758BC56FA570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F27125-FBA1-4030-B608-758BC56FA570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F27125-FBA1-4030-B608-758BC56FA570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F27125-FBA1-4030-B608-758BC56FA570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B3A3F6E-505E-4102-BCB3-84035D83C026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B3A3F6E-505E-4102-BCB3-84035D83C026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B3A3F6E-505E-4102-BCB3-84035D83C026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B3A3F6E-505E-4102-BCB3-84035D83C026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F437BF15-6C4F-45CF-9794-769C550CFF94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F437BF15-6C4F-45CF-9794-769C550CFF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F437BF15-6C4F-45CF-9794-769C550CFF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F437BF15-6C4F-45CF-9794-769C550CFF94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5FFE092-CCA3-46CF-8ACA-403E520FBEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5FFE092-CCA3-46CF-8ACA-403E520FBEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5FFE092-CCA3-46CF-8ACA-403E520FBEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5FFE092-CCA3-46CF-8ACA-403E520FBEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A375A6-D93B-42CC-BA78-3A577C227220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A375A6-D93B-42CC-BA78-3A577C227220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A375A6-D93B-42CC-BA78-3A577C227220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A375A6-D93B-42CC-BA78-3A577C227220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A1603E3-8135-41F9-87C1-6FE9AF8BE3F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A1603E3-8135-41F9-87C1-6FE9AF8BE3F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A1603E3-8135-41F9-87C1-6FE9AF8BE3F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A1603E3-8135-41F9-87C1-6FE9AF8BE3F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

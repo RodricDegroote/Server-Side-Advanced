@@ -1,0 +1,53 @@
+﻿@model nmct.ba.webshop.models.PresentationModel.OrderLinePM
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Winkelmand</h2>
+
+@using (Html.BeginForm("Bestelling", "Order", FormMethod.Post, new { @class = "form-group", @enctype = "multipart/form-data" }))
+{
+<table class="table">
+    <tr>
+        <th>Product</th>
+        <th>Eenheidsprijs</th>
+        <th>Aantal</th>
+        <th>Prijs</th>
+    </tr>
+
+@foreach (var item in Model.OrderLines) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.BasketItem.prod.Naam)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BasketItem.prod.Aankoopprijs) €
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BasketItem.Aantal)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TotaalPrijs) €
+        </td>
+        <td>
+            @Html.ActionLink("Wijzig aantal", "Wijzigen", new{Id=item.BasketID})
+        </td>
+    </tr>
+}
+    <tr>
+        <td></td>
+        <td></td>
+        <td style="text-align:right;font-weight:bold">De totaalprijs bedraagt: </td>
+        <td>@Html.DisplayFor(m => m.TotaalPrijsProducten) €</td>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><input type="submit" name="btnPlaatsBestelling" value="Plaats bestelling" class="btn btn-primary" @Html.DisplayFor(m => m.btnEnabled)/></td>
+    </tr>
+
+</table>
+}

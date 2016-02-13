@@ -1,0 +1,59 @@
+﻿@using nmct.ba.webshop.Properties.General;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+       @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/CSS/bootstrap.css")
+    @Styles.Render("~/CSS/bootstrap.min.css")
+    @Styles.Render("~/CSS/bootstrap-theme.css")
+    @Styles.Render("~/CSS/bootstrap-theme.min.css")
+      
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("Rody@IT WebShop", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink(GUI.Home, "Index", "Home", new { area = "" }, null)</li>
+                        <li>@Html.ActionLink(GUI.Catalogus, "Index", "Cataloog", new { area = "" }, null)</li>
+                        <li>@Html.ActionLink(GUI.Toevoegen, "Toevoegen", "Product", new { area = "" }, null)</li>
+                        <li>@Html.ActionLink(GUI.Winkel, "Index", "Basket", new { area = "" }, null)</li>
+                        @if (Request.IsAuthenticated)
+                        {
+                            <li>@Html.ActionLink("Cart:" + @Html.Action("GetAantalBasketItems", "Cataloog") + " item(s)", "Index", "Basket")</li>
+                        }
+                    </ul>
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </div>
+
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+    </div>
+        
+    
+
+</body>
+</html>

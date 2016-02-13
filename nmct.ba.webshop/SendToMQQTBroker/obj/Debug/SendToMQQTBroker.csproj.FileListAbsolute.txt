@@ -1,0 +1,13 @@
+C:\Users\Rodric\Documents\Visual Studio 2013\Projects\nmct.ba.webshop\SendToMQQTBroker\bin\Debug\SendToMQQTBroker.exe.config
+C:\Users\Rodric\Documents\Visual Studio 2013\Projects\nmct.ba.webshop\SendToMQQTBroker\bin\Debug\SendToMQQTBroker.exe
+C:\Users\Rodric\Documents\Visual Studio 2013\Projects\nmct.ba.webshop\SendToMQQTBroker\bin\Debug\SendToMQQTBroker.pdb
+C:\Users\Rodric\Documents\Visual Studio 2013\Projects\nmct.ba.webshop\SendToMQQTBroker\bin\Debug\M2Mqtt.dll
+C:\Users\Rodric\Documents\Visual Studio 2013\Projects\nmct.ba.webshop\SendToMQQTBroker\obj\Debug\SendToMQQTBroker.csprojResolveAssemblyReference.cache
+C:\Users\Rodric\Documents\Visual Studio 2013\Projects\nmct.ba.webshop\SendToMQQTBroker\obj\Debug\SendToMQQTBroker.exe
+C:\Users\Rodric\Documents\Visual Studio 2013\Projects\nmct.ba.webshop\SendToMQQTBroker\obj\Debug\SendToMQQTBroker.pdb
+C:\Users\Rodric\Documents\NMCT\2NMCT\Semester 2\Server Side Advanced\nmct.ba.webshop\SendToMQQTBroker\bin\Debug\SendToMQQTBroker.exe.config
+C:\Users\Rodric\Documents\NMCT\2NMCT\Semester 2\Server Side Advanced\nmct.ba.webshop\SendToMQQTBroker\obj\Debug\SendToMQQTBroker.exe
+C:\Users\Rodric\Documents\NMCT\2NMCT\Semester 2\Server Side Advanced\nmct.ba.webshop\SendToMQQTBroker\obj\Debug\SendToMQQTBroker.pdb
+\\NAS01HOME\home\Documenten\Howest\2NMCT\Semester 2\Server Side Advanced\nmct.ba.webshop\SendToMQQTBroker\bin\Debug\SendToMQQTBroker.exe.config
+\\NAS01HOME\home\Documenten\Howest\2NMCT\Semester 2\Server Side Advanced\nmct.ba.webshop\SendToMQQTBroker\obj\Debug\SendToMQQTBroker.exe
+\\NAS01HOME\home\Documenten\Howest\2NMCT\Semester 2\Server Side Advanced\nmct.ba.webshop\SendToMQQTBroker\obj\Debug\SendToMQQTBroker.pdb

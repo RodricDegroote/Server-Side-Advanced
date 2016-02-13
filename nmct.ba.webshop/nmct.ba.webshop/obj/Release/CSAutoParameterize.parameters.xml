@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ApplicationDbContext-Web.config Connection String" description="ApplicationDbContext Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:slncthknoh.database.windows.net,1433;Database=WebShop;User ID=Rodric@slncthknoh;Password=wr7Jak_RD;Trusted_Connection=False;Encrypt=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Rodric\\Documents\\Visual\ Studio\ 2013\\Projects\\nmct\.ba\.webshop\\nmct\.ba\.webshop\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ApplicationDbContext']/@connectionString" />
+  </parameter>
+</parameters>

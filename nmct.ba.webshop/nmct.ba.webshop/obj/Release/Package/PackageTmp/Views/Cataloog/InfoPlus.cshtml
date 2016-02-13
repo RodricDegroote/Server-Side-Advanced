@@ -1,0 +1,46 @@
+﻿@model nmct.ba.webshop.models.Product
+
+@{
+    ViewBag.Title = "InfoPlus";
+}
+
+<div class="container">
+@using (Html.BeginForm("InfoPlus", "Cataloog", FormMethod.Post, new { @class = "form-group", @enctype = "multipart/form-data" }))
+{
+    <h2>Productomschrijving</h2>
+
+    <div class="table-responsive">
+        <table class="table">
+            @Html.HiddenFor(m => m.ProductId)
+            <tr>
+                <td><b>Productnaam: </b>
+                @Html.DisplayFor(model => model.Naam)</td>
+            </tr>
+            <tr>
+                <td><b>Eenheidsprijs: </b>
+                @Html.DisplayFor(model => model.Aankoopprijs) €</td>
+            </tr>
+            <tr>
+                <td><b>Huurprijs: </b>
+                @Html.DisplayFor(model => model.Huurprijs) €</td>
+            </tr>
+            <tr>
+                <td><b>Stockvoorraad: </b>
+                @Html.DisplayFor(model => model.Aantal)</td>
+            </tr>
+            <tr>
+                <td><input type="number" id="Verhuren" name="VerhurenAantal" min="0"/></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="btnHuren" value="Toevoegen aan winkelmandje" class="btn btn-primary" /></td>
+            </tr>
+            <tr>
+                @*<td><img src="~/Images/@Html.DisplayFor(model => model.Image)" /></td>*@
+                <td><img src="http://webshop.blob.core.windows.net/images/@Model.Image" /></td>
+            <tr>
+                <td>@Html.ActionLink("Back to List", "Index")</td>
+            </tr>
+        </table>
+    </div>
+}
+</div>
